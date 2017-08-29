@@ -1,7 +1,14 @@
-first is create token
+#INSTALLATION
+1. Install Golang
+    - https://github.com/canha/golang-tools-install-script (Credits to the owner of this)
+2. Install Beego
+    - https://beego.me/
 
-http://127.0.0.1:8181/do-create-token
 
-and try to access protected router
-
-http://127.0.0.1:8181/protected - get method
+#TERMINAL EXECUTION
+1. go get github.com/go-sql-driver/mysql
+2. go get github.com/dgrijalva/jwt-go
+3. go get github.com/codegangsta/negroni
+4. go get github.com/gorilla/mux
+5. go get github.com/auth0/go-jwt-middleware
+6. go get github.com/rs/cors
